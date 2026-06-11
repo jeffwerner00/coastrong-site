@@ -6,7 +6,7 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPolicy() {
-  const effectiveDate = "June 10, 2025";
+  const effectiveDate = "June 10, 2026";
 
   return (
     <main className="min-h-screen flex flex-col">
