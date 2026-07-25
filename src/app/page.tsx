@@ -4,14 +4,14 @@ export default function Home() {
       {/* Hero */}
       <section className="flex flex-col items-center justify-center px-6 pt-24 pb-16 text-center">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">
-          COA <span className="text-blue-500">Tracker</span>
+          COA <span className="text-blue-500">Strong</span>
         </h1>
         <p className="text-lg md:text-2xl text-gray-300 max-w-2xl mb-6">
           The all-in-one certificate of analysis and compliance tracker for
           cannabis and hemp operators.
         </p>
         <p className="text-base md:text-lg text-gray-400 max-w-2xl mb-12">
-          COA Tracker helps growers, processors, and retailers store, organize,
+          COA Strong helps growers, processors, and retailers store, organize,
           and verify lab results (Certificates of Analysis) in one place — so you
           can prove product compliance, share results with customers, and keep
           your team audit-ready.
@@ -80,10 +80,10 @@ export default function Home() {
       <section className="px-6 py-16 bg-gray-900/40">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            What COA Tracker does
+            What COA Strong does
           </h2>
           <p className="text-center text-gray-400 max-w-2xl mx-auto mb-12">
-            Purpose-built for compliance. COA Tracker gives your team a single,
+            Purpose-built for compliance. COA Strong gives your team a single,
             secure home for every lab result — accessible on web and mobile.
           </p>
 
@@ -129,7 +129,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">How it works</h2>
           <p className="text-gray-400 leading-relaxed mb-4">
-            Sign in to COA Tracker on your phone or the web, add your products,
+            Sign in to COA Strong on your phone or the web, add your products,
             and attach their lab-issued Certificates of Analysis. COA Tracker
             keeps everything organized and searchable, and lets you generate
             shareable, verifiable proof of compliance in seconds.
