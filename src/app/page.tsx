@@ -2,21 +2,23 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen">
       {/* Hero */}
-      <section className="flex flex-col items-center justify-center flex-1 px-6 py-24 text-center">
-        <div className="mb-6">
-          <span className="inline-block bg-blue-600 text-white text-xs font-semibold tracking-widest uppercase px-4 py-1 rounded-full mb-6">
-            Coming Soon
-          </span>
-        </div>
+      <section className="flex flex-col items-center justify-center px-6 pt-24 pb-16 text-center">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">
-          COA <span className="text-blue-500">Strong</span>
+          COA <span className="text-blue-500">Tracker</span>
         </h1>
-        <p className="text-lg md:text-2xl text-gray-300 max-w-xl mb-12">
-          Track your workouts. Strengthen your community.
+        <p className="text-lg md:text-2xl text-gray-300 max-w-2xl mb-6">
+          The all-in-one certificate of analysis and compliance tracker for
+          cannabis and hemp operators.
+        </p>
+        <p className="text-base md:text-lg text-gray-400 max-w-2xl mb-12">
+          COA Tracker helps growers, processors, and retailers store, organize,
+          and verify lab results (Certificates of Analysis) in one place — so you
+          can prove product compliance, share results with customers, and keep
+          your team audit-ready.
         </p>
 
-        {/* App store placeholders */}
-        <div className="flex flex-col sm:flex-row gap-4 mb-16">
+        {/* App store buttons */}
+        <div className="flex flex-col sm:flex-row gap-4 mb-6">
           <button
             disabled
             className="flex items-center gap-3 bg-white text-black font-semibold px-6 py-3 rounded-xl opacity-60 cursor-not-allowed border border-gray-200"
@@ -70,10 +72,74 @@ export default function Home() {
         </div>
 
         <p className="text-sm text-gray-500">
-          App launching soon. Stay tuned.
+          Available soon on the App Store and Google Play.
         </p>
       </section>
 
+      {/* Features */}
+      <section className="px-6 py-16 bg-gray-900/40">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+            What COA Tracker does
+          </h2>
+          <p className="text-center text-gray-400 max-w-2xl mx-auto mb-12">
+            Purpose-built for compliance. COA Tracker gives your team a single,
+            secure home for every lab result — accessible on web and mobile.
+          </p>
+
+          <div className="grid gap-8 md:grid-cols-3">
+            <div className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+              <div className="text-blue-500 text-2xl mb-3 font-bold">01</div>
+              <h3 className="text-xl font-semibold mb-2">
+                Store every COA in one place
+              </h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Upload and organize Certificates of Analysis by product, batch,
+                and date. No more chasing PDFs across email and drives.
+              </p>
+            </div>
+
+            <div className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+              <div className="text-blue-500 text-2xl mb-3 font-bold">02</div>
+              <h3 className="text-xl font-semibold mb-2">
+                Verify and share results
+              </h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Instantly confirm product compliance and share verified results
+                with customers, partners, and regulators via secure links.
+              </p>
+            </div>
+
+            <div className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+              <div className="text-blue-500 text-2xl mb-3 font-bold">03</div>
+              <h3 className="text-xl font-semibold mb-2">
+                Stay audit-ready
+              </h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Keep your whole team on the same page with role-based access, so
+                you&apos;re always ready for an inspection or audit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How it works */}
+      <section className="px-6 py-16">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">How it works</h2>
+          <p className="text-gray-400 leading-relaxed mb-4">
+            Sign in to COA Tracker on your phone or the web, add your products,
+            and attach their lab-issued Certificates of Analysis. COA Tracker
+            keeps everything organized and searchable, and lets you generate
+            shareable, verifiable proof of compliance in seconds.
+          </p>
+          <p className="text-gray-500 text-sm">
+            Built for cannabis and hemp businesses that need to prove their
+            products are tested, safe, and compliant.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
