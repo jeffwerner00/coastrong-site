@@ -7,14 +7,12 @@ export default function Home() {
           COA <span className="text-blue-500">Strong</span>
         </h1>
         <p className="text-lg md:text-2xl text-gray-300 max-w-2xl mb-6">
-          The all-in-one certificate of analysis and compliance tracker for
-          cannabis and hemp operators.
+          Build strong habits. Stay accountable. Get after it together.
         </p>
         <p className="text-base md:text-lg text-gray-400 max-w-2xl mb-12">
-          COA Strong helps growers, processors, and retailers store, organize,
-          and verify lab results (Certificates of Analysis) in one place — so you
-          can prove product compliance, share results with customers, and keep
-          your team audit-ready.
+          COA Strong is a whole-person health and fitness tracker. Log your
+          training, nutrition, sleep, and daily habits, earn badges as you
+          build consistency, and stay accountable alongside your crew.
         </p>
 
         {/* App store buttons */}
@@ -76,67 +74,78 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Features */}
+      {/* What you track */}
       <section className="px-6 py-16 bg-gray-900/40">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            What COA Strong does
+            Track what matters
           </h2>
           <p className="text-center text-gray-400 max-w-2xl mx-auto mb-12">
-            Purpose-built for compliance. COA Strong gives your team a single,
-            secure home for every lab result — accessible on web and mobile.
+            COA Strong helps you show up every day across the habits that build a
+            healthier, stronger you.
           </p>
 
-          <div className="grid gap-8 md:grid-cols-3">
-            <div className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
-              <div className="text-blue-500 text-2xl mb-3 font-bold">01</div>
-              <h3 className="text-xl font-semibold mb-2">
-                Store every COA in one place
-              </h3>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Upload and organize Certificates of Analysis by product, batch,
-                and date. No more chasing PDFs across email and drives.
-              </p>
-            </div>
+          <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+            {[
+              { title: "Training", desc: "Log your workouts and stay on track with your weekly plan." },
+              { title: "Nutrition", desc: "Eat the right foods and amounts, and track your progress." },
+              { title: "Sleep", desc: "Record your hours and build a consistent rest routine." },
+              { title: "Steps & Water", desc: "Hit your daily movement and hydration targets." },
+              { title: "Be Still", desc: "Make time for stillness, prayer, and reflection." },
+              { title: "Weekly Anchor", desc: "Choose a focus habit for the week and lock it in." },
+            ].map((f) => (
+              <div
+                key={f.title}
+                className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700"
+              >
+                <h3 className="text-lg font-semibold mb-2 text-blue-400">
+                  {f.title}
+                </h3>
+                <p className="text-gray-400 text-sm leading-relaxed">{f.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-            <div className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
-              <div className="text-blue-500 text-2xl mb-3 font-bold">02</div>
-              <h3 className="text-xl font-semibold mb-2">
-                Verify and share results
-              </h3>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Instantly confirm product compliance and share verified results
-                with customers, partners, and regulators via secure links.
-              </p>
-            </div>
-
-            <div className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
-              <div className="text-blue-500 text-2xl mb-3 font-bold">03</div>
-              <h3 className="text-xl font-semibold mb-2">
-                Stay audit-ready
-              </h3>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Keep your whole team on the same page with role-based access, so
-                you&apos;re always ready for an inspection or audit.
-              </p>
-            </div>
+      {/* Community + badges */}
+      <section className="px-6 py-16">
+        <div className="max-w-5xl mx-auto grid gap-10 md:grid-cols-2 items-start">
+          <div>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              Stronger together
+            </h2>
+            <p className="text-gray-400 leading-relaxed">
+              COA Strong is built for accountability. Join a crew, follow your
+              team&apos;s progress, and encourage each other to keep showing up.
+              Consistency is easier when you&apos;re not doing it alone.
+            </p>
+          </div>
+          <div>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              Earn your badges
+            </h2>
+            <p className="text-gray-400 leading-relaxed">
+              Every logged day counts. Build streaks, hit milestones, and earn
+              badges that celebrate the discipline you&apos;re putting in — one
+              habit at a time.
+            </p>
           </div>
         </div>
       </section>
 
       {/* How it works */}
-      <section className="px-6 py-16">
+      <section className="px-6 py-16 bg-gray-900/40">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">How it works</h2>
           <p className="text-gray-400 leading-relaxed mb-4">
-            Sign in to COA Strong on your phone or the web, add your products,
-            and attach their lab-issued Certificates of Analysis. COA Tracker
-            keeps everything organized and searchable, and lets you generate
-            shareable, verifiable proof of compliance in seconds.
+            Sign in on your phone, set your weekly focus, and log your habits
+            each day. COA Strong keeps your streaks, badges, and progress in one
+            place — and connects you with your crew so you stay accountable and
+            motivated.
           </p>
           <p className="text-gray-500 text-sm">
-            Built for cannabis and hemp businesses that need to prove their
-            products are tested, safe, and compliant.
+            Build the habits. Stay the course. Get COA Strong.
           </p>
         </div>
       </section>
