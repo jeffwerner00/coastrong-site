@@ -57,10 +57,10 @@ export default function DeleteAccount() {
             <p>
               Email{" "}
               <a
-                href="mailto:support@coastrong.com"
+                href="mailto:admin@coastrong.com"
                 className="text-blue-400 hover:underline"
               >
-                support@coastrong.com
+                admin@coastrong.com
               </a>{" "}
               from the email address associated with your account and request
               account deletion. We&apos;ll confirm once your request has been
@@ -103,10 +103,10 @@ export default function DeleteAccount() {
               If you have questions about your data or the deletion process,
               contact us at{" "}
               <a
-                href="mailto:support@coastrong.com"
+                href="mailto:admin@coastrong.com"
                 className="text-blue-400 hover:underline"
               >
-                support@coastrong.com
+                admin@coastrong.com
               </a>
               . You can also review our{" "}
               <Link href="/privacy" className="text-blue-400 hover:underline">

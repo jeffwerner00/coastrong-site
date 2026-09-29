@@ -32,8 +32,8 @@ export default function Support() {
               <p className="font-semibold text-white">COA Strong Support</p>
               <p>
                 Email:{" "}
-                <a href="mailto:support@coastrong.com" className="text-blue-400 hover:underline">
-                  support@coastrong.com
+                <a href="mailto:admin@coastrong.com" className="text-blue-400 hover:underline">
+                  admin@coastrong.com
                 </a>
               </p>
               <p className="text-gray-400 text-sm mt-2">
@@ -59,15 +59,40 @@ export default function Support() {
 
             <h3 className="text-lg font-medium text-gray-100 mt-4 mb-2">How do I manage my subscription?</h3>
             <p>
-              Subscriptions are managed through your Apple App Store account. Open Settings on your
-              device, tap your name, then Subscriptions, and select COA Strong to change or cancel.
+              <span className="font-semibold text-white">iPhone:</span> Subscriptions are billed through
+              Apple. Open Settings, tap your name, then Subscriptions, and select COA Strong to change or
+              cancel.
+            </p>
+            <p className="mt-2">
+              <span className="font-semibold text-white">Android:</span> Subscriptions are billed securely
+              through Stripe. In the app, go to Account → Manage Subscription. From there you can update
+              your payment info or cancel. If you cancel, you keep access until the end of your current
+              billing period, and you can tap &quot;Keep my subscription&quot; to undo it before then.
+            </p>
+
+            <h3 className="text-lg font-medium text-gray-100 mt-4 mb-2">How do I request a refund?</h3>
+            <p>
+              <span className="font-semibold text-white">iPhone:</span> Refunds for App Store purchases are
+              handled by Apple. Visit{" "}
+              <a href="https://reportaproblem.apple.com" className="text-blue-400 hover:underline">
+                reportaproblem.apple.com
+              </a>{" "}
+              and select your COA Strong purchase.
+            </p>
+            <p className="mt-2">
+              <span className="font-semibold text-white">Android:</span> Email{" "}
+              <a href="mailto:admin@coastrong.com" className="text-blue-400 hover:underline">
+                admin@coastrong.com
+              </a>{" "}
+              from the address on your account and include the date of the charge. We typically respond
+              within 1–2 business days.
             </p>
 
             <h3 className="text-lg font-medium text-gray-100 mt-4 mb-2">How do I delete my account?</h3>
             <p>
               You can request account deletion by emailing{" "}
-              <a href="mailto:support@coastrong.com" className="text-blue-400 hover:underline">
-                support@coastrong.com
+              <a href="mailto:admin@coastrong.com" className="text-blue-400 hover:underline">
+                admin@coastrong.com
               </a>{" "}
               from the address associated with your account. We&apos;ll process your request and confirm
               once complete.

@@ -14,7 +14,7 @@ export default function Footer() {
           Terms of Service
         </Link>
         <span className="hidden sm:inline text-gray-700">·</span>
-        <Link href="mailto:support@coastrong.com" className="hover:text-white transition-colors">
+        <Link href="mailto:admin@coastrong.com" className="hover:text-white transition-colors">
           Support
         </Link>
       </div>
