@@ -1,3 +1,8 @@
+// The organization application lives on the admin portal. Overridable at build
+// time so a preview can point at dev-admin; production uses the live portal.
+const ORG_APPLY_URL =
+  process.env.NEXT_PUBLIC_ORG_APPLY_URL || 'https://admin.coastrong.com/apply';
+
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen">
@@ -146,6 +151,28 @@ export default function Home() {
           </p>
           <p className="text-gray-500 text-sm">
             Build the habits. Stay the course. Get COA Strong.
+          </p>
+        </div>
+      </section>
+
+      {/* For organizations — Apply (Jeff, 2026-09-30). The application itself
+          lives on the admin portal; this only links to it. */}
+      <section id="organizations" className="px-6 py-16">
+        <div className="max-w-3xl mx-auto text-center border border-gray-800 rounded-2xl px-6 py-12">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">For organizations</h2>
+          <p className="text-gray-400 leading-relaxed mb-8">
+            Run your gym, studio, coaching practice or team on COA Strong. Your
+            members get the app with your branding, and you get a dashboard to
+            see how your community is doing — at no cost to your organization.
+          </p>
+          <a
+            href={ORG_APPLY_URL}
+            className="inline-block bg-blue-500 hover:bg-blue-400 text-white font-semibold px-8 py-3 rounded-xl transition-colors"
+          >
+            Apply for your organization
+          </a>
+          <p className="text-gray-500 text-sm mt-4">
+            We review every application and reply by email.
           </p>
         </div>
       </section>
