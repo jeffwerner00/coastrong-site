@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — COA Strong",
+  title: "Privacy Policy — COA Teams",
 };
 
 export default function PrivacyPolicy() {
@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
       {/* Nav */}
       <nav className="border-b border-gray-800 px-6 py-4">
         <Link href="/" className="text-blue-400 hover:text-blue-300 font-semibold text-sm transition-colors">
-          ← COA Strong
+          ← COA Teams
         </Link>
       </nav>
 
@@ -27,12 +27,12 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">1. Introduction</h2>
             <p>
-              COA Strong (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is committed to protecting your privacy. This Privacy Policy
+              COA Teams (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is committed to protecting your privacy. This Privacy Policy
               explains how we collect, use, disclose, and safeguard your information when you use the
-              COA Strong mobile application (&quot;App&quot;) and related services (collectively, the &quot;Service&quot;).
+              COA Teams mobile application (&quot;App&quot;) and related services (collectively, the &quot;Service&quot;).
             </p>
             <p className="mt-3">
-              By using COA Strong, you agree to the terms of this Privacy Policy. If you do not agree,
+              By using COA Teams, you agree to the terms of this Privacy Policy. If you do not agree,
               please do not use the App.
             </p>
           </section>
@@ -67,7 +67,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-white mb-3">3. How We Use Your Information</h2>
             <p>We use the information we collect to:</p>
             <ul className="list-disc list-inside space-y-1 text-gray-300 ml-4 mt-2">
-              <li>Provide, operate, and maintain the COA Strong App and Service</li>
+              <li>Provide, operate, and maintain the COA Teams App and Service</li>
               <li>Create and manage your user account</li>
               <li>Record and display your workout history, attendance, and performance data</li>
               <li>Enable coaches and organization administrators to manage memberships and view performance data</li>
@@ -85,7 +85,7 @@ export default function PrivacyPolicy() {
 
             <h3 className="text-lg font-medium text-gray-100 mt-4 mb-2">4.1 With Your Organization</h3>
             <p>
-              If you are a member of a gym or fitness organization using COA Strong, your workout data,
+              If you are a member of a gym or fitness organization using COA Teams, your workout data,
               attendance records, and profile information may be visible to coaches and administrators
               of that organization as part of the membership and coaching features.
             </p>
@@ -163,7 +163,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">8. Children&apos;s Privacy</h2>
             <p>
-              COA Strong is not directed to children under the age of 13. We do not knowingly collect
+              COA Teams is not directed to children under the age of 13. We do not knowingly collect
               personal information from children under 13. If we become aware that we have collected
               such information, we will take steps to delete it promptly. If you believe we may have
               information from a child under 13, please contact us at{" "}
@@ -186,7 +186,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-white mb-3">10. Contact Us</h2>
             <p>If you have questions or concerns about this Privacy Policy, please contact us:</p>
             <div className="mt-3 p-4 bg-gray-800 rounded-lg">
-              <p className="font-semibold text-white">COA Strong</p>
+              <p className="font-semibold text-white">COA Teams</p>
               <p>
                 Email:{" "}
                 <a href="mailto:privacy@coastrong.com" className="text-blue-400 hover:underline">
@@ -202,7 +202,7 @@ export default function PrivacyPolicy() {
       {/* Footer */}
       <footer className="border-t border-gray-800 py-6 px-6 text-center text-sm text-gray-500">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <span>© {new Date().getFullYear()} COA Strong. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} COA Teams. All rights reserved.</span>
           <span className="hidden sm:inline text-gray-700">·</span>
           <Link href="/privacy" className="text-blue-400 hover:text-white transition-colors">
             Privacy Policy

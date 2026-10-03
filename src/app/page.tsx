@@ -15,7 +15,7 @@ export default function Home() {
           Build strong habits. Stay accountable. Get after it together.
         </p>
         <p className="text-base md:text-lg text-gray-400 max-w-2xl mb-12">
-          COA Strong is a whole-person health and fitness tracker. Log your
+          COA Teams is a whole-person health and fitness tracker. Log your
           training, nutrition, sleep, and daily habits, earn badges as you
           build consistency, and stay accountable alongside your crew.
         </p>
@@ -86,7 +86,7 @@ export default function Home() {
             Track what matters
           </h2>
           <p className="text-center text-gray-400 max-w-2xl mx-auto mb-12">
-            COA Strong helps you show up every day across the habits that build a
+            COA Teams helps you show up every day across the habits that build a
             healthier, stronger you.
           </p>
 
@@ -121,7 +121,7 @@ export default function Home() {
               Stronger together
             </h2>
             <p className="text-gray-400 leading-relaxed">
-              COA Strong is built for accountability. Join a crew, follow your
+              COA Teams is built for accountability. Join a crew, follow your
               team&apos;s progress, and encourage each other to keep showing up.
               Consistency is easier when you&apos;re not doing it alone.
             </p>
@@ -145,12 +145,12 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">How it works</h2>
           <p className="text-gray-400 leading-relaxed mb-4">
             Sign in on your phone, set your weekly focus, and log your habits
-            each day. COA Strong keeps your streaks, badges, and progress in one
+            each day. COA Teams keeps your streaks, badges, and progress in one
             place — and connects you with your crew so you stay accountable and
             motivated.
           </p>
           <p className="text-gray-500 text-sm">
-            Build the habits. Stay the course. Get COA Strong.
+            Build the habits. Stay the course. Get COA Teams.
           </p>
         </div>
       </section>
@@ -161,7 +161,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center border border-gray-800 rounded-2xl px-6 py-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">For organizations</h2>
           <p className="text-gray-400 leading-relaxed mb-8">
-            Run your gym, studio, coaching practice or team on COA Strong. Your
+            Run your gym, studio, coaching practice or team on COA Teams. Your
             members get the app with your branding, and you get a dashboard to
             see how your community is doing — at no cost to your organization.
           </p>

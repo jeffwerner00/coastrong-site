@@ -2,9 +2,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Delete Your Account — COA Strong",
+  title: "Delete Your Account — COA Teams",
   description:
-    "Learn how to delete your COA Tracker account and what data is removed.",
+    "Learn how to delete your COA Teams account and what data is removed.",
 };
 
 export default function DeleteAccount() {
@@ -16,17 +16,23 @@ export default function DeleteAccount() {
           href="/"
           className="text-blue-400 hover:text-blue-300 font-semibold text-sm transition-colors"
         >
-          ← COA Strong
+          ← COA Teams
         </Link>
       </nav>
 
       {/* Content */}
       <article className="flex-1 max-w-3xl mx-auto w-full px-6 py-12">
         <h1 className="text-3xl md:text-4xl font-bold mb-2">
-          Delete Your COA Tracker Account
+          Delete Your COA Teams Account
         </h1>
-        <p className="text-gray-400 text-sm mb-10">
+        <p className="text-gray-400 text-sm mb-2">
           We&apos;re sorry to see you go. Here&apos;s how to delete your account.
+        </p>
+        {/* Google Play reviews this page against the Play listing, which still
+            says "COA Strong" until it is renamed after 2.2.0 is approved there.
+            Remove this line once the Play listing reads COA Teams. */}
+        <p className="text-gray-500 text-xs mb-10">
+          COA Teams is listed as &ldquo;COA Strong&rdquo; on Google Play. It is the same app and the same account.
         </p>
 
         <div className="space-y-8 text-gray-200 leading-relaxed">
@@ -40,7 +46,7 @@ export default function DeleteAccount() {
               Option 1 — In the App
             </h3>
             <ol className="list-decimal list-inside space-y-2 ml-2">
-              <li>Open COA Tracker.</li>
+              <li>Open COA Teams.</li>
               <li>
                 Go to <span className="text-white font-medium">Account</span>.
               </li>

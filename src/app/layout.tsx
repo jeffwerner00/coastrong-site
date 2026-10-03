@@ -3,7 +3,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "COA Strong",
+  title: "COA Teams",
   description: "Track your workouts. Strengthen your community.",
 };
 

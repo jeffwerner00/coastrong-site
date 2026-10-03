@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Support — COA Strong",
+  title: "Support — COA Teams",
 };
 
 export default function Support() {
@@ -11,7 +11,7 @@ export default function Support() {
       {/* Nav */}
       <nav className="border-b border-gray-800 px-6 py-4">
         <Link href="/" className="text-blue-400 hover:text-blue-300 font-semibold text-sm transition-colors">
-          ← COA Strong
+          ← COA Teams
         </Link>
       </nav>
 
@@ -29,7 +29,7 @@ export default function Support() {
               we&apos;ll get back to you as soon as we can.
             </p>
             <div className="mt-4 p-4 bg-gray-800 rounded-lg">
-              <p className="font-semibold text-white">COA Strong Support</p>
+              <p className="font-semibold text-white">COA Teams Support</p>
               <p>
                 Email:{" "}
                 <a href="mailto:admin@coastrong.com" className="text-blue-400 hover:underline">
@@ -54,13 +54,13 @@ export default function Support() {
             <h3 className="text-lg font-medium text-gray-100 mt-4 mb-2">How do I join my team or organization?</h3>
             <p>
               Your coach or organization admin will send you an invite link. Open it on your device
-              with COA Strong installed and you&apos;ll be added automatically after signing in.
+              with COA Teams installed and you&apos;ll be added automatically after signing in.
             </p>
 
             <h3 className="text-lg font-medium text-gray-100 mt-4 mb-2">How do I manage my subscription?</h3>
             <p>
               <span className="font-semibold text-white">iPhone:</span> Subscriptions are billed through
-              Apple. Open Settings, tap your name, then Subscriptions, and select COA Strong to change or
+              Apple. Open Settings, tap your name, then Subscriptions, and select COA Teams to change or
               cancel.
             </p>
             <p className="mt-2">
@@ -77,7 +77,7 @@ export default function Support() {
               <a href="https://reportaproblem.apple.com" className="text-blue-400 hover:underline">
                 reportaproblem.apple.com
               </a>{" "}
-              and select your COA Strong purchase.
+              and select your COA Teams purchase.
             </p>
             <p className="mt-2">
               <span className="font-semibold text-white">Android:</span> Email{" "}
@@ -121,7 +121,7 @@ export default function Support() {
       {/* Footer */}
       <footer className="border-t border-gray-800 py-6 px-6 text-center text-sm text-gray-500">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <span>© {new Date().getFullYear()} COA Strong. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} COA Teams. All rights reserved.</span>
           <span className="hidden sm:inline text-gray-700">·</span>
           <Link href="/privacy" className="hover:text-white transition-colors">
             Privacy Policy
